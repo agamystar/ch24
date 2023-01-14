@@ -1,0 +1,4 @@
+# Cache and logs (Symfony2)
+.idea
+composer.lock
+vendor/
