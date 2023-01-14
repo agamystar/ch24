@@ -27,11 +27,6 @@ abstract class DBModel
         return 'id';
     }
 
-    public function db()
-    {
-        return new DB();
-    }
-
     public function get(): array
     {
         $tableName = $this->tableName();
